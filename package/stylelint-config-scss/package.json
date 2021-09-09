@@ -1,0 +1,32 @@
+{
+  "name": "@yellfage/stylelint-config-scss",
+  "version": "1.0.0",
+  "author": "yellfage",
+  "description": "Stylelint config for scss",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --report-unused-disable-directives .",
+    "prepublishOnly": "npm run lint"
+  },
+  "files": [
+    "rules"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yellfage/stylelint-config.git",
+    "directory": "package/stylelint-config-scss"
+  },
+  "peerDependencies": {
+    "@yellfage/stylelint-config": "^1.0.0",
+    "stylelint-scss": "^4.0.0"
+  },
+  "devDependencies": {
+    "@yellfage/eslint-config": "^1.0.0",
+    "stylelint": "^14.1.0",
+    "stylelint-scss": "^4.0.0"
+  },
+  "dependencies": {
+    "postcss-scss": "^4.0.2"
+  }
+}

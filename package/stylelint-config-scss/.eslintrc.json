@@ -1,0 +1,5 @@
+{
+  "extends": "@yellfage/eslint-config",
+  "env": { "node": true },
+  "rules": { "no-magic-numbers": "off" }
+}

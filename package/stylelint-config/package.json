@@ -1,0 +1,30 @@
+{
+  "name": "@yellfage/stylelint-config",
+  "version": "1.0.0",
+  "author": "yellfage",
+  "description": "Stylelint config",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --report-unused-disable-directives .",
+    "prepublishOnly": "npm run lint"
+  },
+  "files": [
+    "rules"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yellfage/stylelint-config.git",
+    "directory": "package/stylelint-config"
+  },
+  "peerDependencies": {
+    "stylelint-no-unsupported-browser-features": "^5.0.2",
+    "stylelint-order": "^5.0.0"
+  },
+  "devDependencies": {
+    "@yellfage/eslint-config": "^1.0.0",
+    "stylelint": "^14.1.0",
+    "stylelint-no-unsupported-browser-features": "^5.0.2",
+    "stylelint-order": "^5.0.0"
+  }
+}
